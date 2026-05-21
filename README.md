@@ -22,7 +22,3 @@ O sistema permite o registro contínuo de mercadorias em uma única venda:
 *Projeto desenvolvido de forma independente para consolidação de lógica de programação e transição de código estruturado (Portugol) para o ambiente de desenvolvimento profissional (Python).*
 """
 
-with open("README.md", "w", encoding="utf-8") as file:
-    file.write(readme_content)
-
-print("Arquivo README.md gerado com sucesso.")
