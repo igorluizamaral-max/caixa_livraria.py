@@ -1,0 +1,16 @@
+quantidade_livros = 0
+total_compra = 0.0
+
+print("=== LIVRARIA GEEK - SISTEMA DE CAIXA ===")
+print("inicie a venda digitando a quantidade de livros e o preço de cada um. (Digite 0 para encerrar a venda)")
+while True:
+    quantidade_livros = int(input("Quantidade de livros: "))
+    
+    if quantidade_livros == 0:
+        break # Encerra o loop se a quantidade for 0
+    
+    preco_livro = float(input("Preço do livro: R$ "))
+    total_compra += quantidade_livros * preco_livro # Soma o valor total da compra
+    print(f"Subtotal: R$ {total_compra:.2f}")
+
+print(f"Total da compra: R$ {total_compra:.2f}")
